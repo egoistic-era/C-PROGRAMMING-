@@ -1,14 +1,16 @@
-# egoistic-era
-# arithmetic-Operations 
-Author:- Prince Verma
+// egoistic-era
+// arithmetic-Operations 
+// Author:- Prince Verma
 
 // Arithmetic Operations Program
 // Author: Prince Verma
 
 #include <stdio.h>
+#include <stdlib.h>
 
-int main() {
-
+int main() 
+{
+    system("cls");
     int a, b;
 
     printf("Enter first number: ");
@@ -23,10 +25,12 @@ int main() {
     printf("Subtraction: %d\n", a - b);
     printf("Multiplication: %d\n", a * b);
 
-    if (b != 0) {
+    if (b != 0)
+    {
         printf("Division: %d\n", a / b);
         printf("Modulus: %d\n", a % b);
-    } else {
+    } else 
+    {
         printf("Division and Modulus not possible (division by zero).\n");
     }
 
